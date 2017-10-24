@@ -36,7 +36,7 @@ public class MorseCode {
 			if(realletter.equals("")){
 				break;
 			}
-			decode(j.substring(i+1,j.length()), word+realletter);
+			decode(j.substring(i+1,j.length()),word+realletter);
 		}
 	}
 	public static String check(String i){
